@@ -1,5 +1,4 @@
 # CodeIgniter Linkedin API Library
-====
 
 ## Installation
 - Copy files in your CodeIgniter folder
