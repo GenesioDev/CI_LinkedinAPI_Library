@@ -1,10 +1,11 @@
 # CodeIgniter Linkedin API Library
+====
 
 ## Installation
 - Copy files in your CodeIgniter folder
 
 ## Configuration
-In the config file replace
+In the config file replace :
 - YOUR_CLIENT_ID by the client id in your linkedin developper account
 - YOUR_CLIENT_SECRET by the client secret in your linkedin developper account
 - YOUR_REDIRECT_URI by the redirect uri you add on your linkedin developper account
