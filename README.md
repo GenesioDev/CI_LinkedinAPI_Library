@@ -19,3 +19,17 @@ Add it on the autoload config file or load it in your controller :
     $this->load->library('linkedinapi');
 
 ## Usage
+
+### Get the link to connect with Linkedin
+
+    $this->linkedinapi->getConnectLink('bgtfsdqs');
+
+
+### Get the authorization token
+
+    $this->linkedinapi->getToken($codeReturnByLinkedin);
+
+
+### Get profile information
+
+    $this->linkedinapi->getProfile($tokenFromLinkedin);
