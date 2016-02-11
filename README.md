@@ -24,7 +24,7 @@ Add it on the autoload config file or load it in your controller :
 
 ### Get the link to connect with Linkedin
 
-    $this->linkedinapi->getConnectLink('bgtfsdqs');
+    $this->linkedinapi->getConnectLink($scope);
 
 
 ### Get the authorization token
